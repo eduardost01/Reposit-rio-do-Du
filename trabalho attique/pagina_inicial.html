@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja Online</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="login.html">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+  
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container-fluid">
+
+    <a class="navbar-brand fw-bold" href="pagina_inicial.html">
+      <i class="bi bi-shop"></i> Hardware Atelier
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+
+      <form class="d-flex mx-auto w-50">
+        <input class="form-control me-2" type="search" placeholder="Buscar produtos...">
+        <button class="btn btn-outline-primary" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+
+      <ul class="navbar-nav ms-auto align-items-center">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            <i class="bi bi-grid"></i> Categorias
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="placamae.html">Placas-mãe</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="processador.html">Processadores</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="mem-RAM.html">Memória-RAM</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="armazenamento.html">Armazenamento</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="GPUs.html">GPUs</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="fontes.html">Fontes</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="periferico.html">Periféricos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="gabinetes.html">Gabinetes</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-primary fw-semibold px-3 rounded hover-bg-primary" href="login.html">
+            <i class="bi bi-person"></i> entrar
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-primary ms-2" href="carrinho.html">
+            <i class="bi bi-cart"></i> carrinho
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="bg-dark text-white text-center p-5">
+  <h1 class="fw-bold">Bem-vindo à Hardware Atelier</h1>
+  <p class="lead">Os melhores componentes para montar seu PC</p>
+</div>
+
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">
+    <i class="bi bi-cart-fill"></i> Ofertas de PCs Montados
+  </h2>
+
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="imgs/pc-ryzen5600g.jpg" class="card-img-top">
+        <div class="card-body d-flex flex-column text-center align-items-center">
+          <h5 class="card-title">PC Gamer Básico</h5>
+          <p class="card-text">Ryzen 5 • 16GB • SSD 480GB</p>
+          <p class="text-success fw-bold">R$ 2.799,90</p>
+          <button class="btn btn-primary w-100 mt-auto">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="imgs/pcintermediárioi5rtx3060.webp" class="card-img-top">
+        <div class="card-body d-flex flex-column text-center align-items-center">
+          <h5 class="card-title">PC Gamer Intermediário</h5>
+          <p class="card-text">i5 • 16GB • RTX 3060 • SSD 1TB</p>
+          <p class="text-success fw-bold">R$ 5.499,90</p>
+          <button class="btn btn-primary w-100 mt-auto">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="imgs/pcryzen9rtx4070.webp" class="card-img-top">
+        <div class="card-body d-flex flex-column text-center align-items-center">
+          <h5 class="card-title">PC Gamer High-End</h5>
+          <p class="card-text">Ryzen 9 • 32GB • RTX 4070 • SSD 2TB</p>
+          <p class="text-success fw-bold">R$ 12.999,90</p>
+          <button class="btn btn-primary w-100 mt-auto">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="imgs/computator.webp" class="card-img-top">
+        <div class="card-body d-flex flex-column text-center align-items-center">
+          <h5 class="card-title">PC Escritório</h5>
+          <p class="card-text">i3 • 8GB • SSD 240GB</p>
+          <p class="text-success fw-bold">R$ 999,90</p>
+          <button class="btn btn-primary w-100 mt-auto">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="imgs/pcrtx5060streaming.jpg" class="card-img-top">
+        <div class="card-body d-flex flex-column text-center align-items-center">
+          <h5 class="card-title">PC Gamer Streaming</h5>
+          <p class="card-text">Ryzen 7 • 32GB • RTX 5060 • SSD 1TB</p>
+          <p class="text-success fw-bold">R$ 8.499,90</p>
+          <button class="btn btn-primary w-100 mt-auto">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="imgs/computadorrtx5090.webp" class="card-img-top">
+        <div class="card-body d-flex flex-column text-center align-items-center">
+          <h5 class="card-title">PC Ultra Performance</h5>
+          <p class="card-text">i9 • 64GB • RTX 5090 • SSD 2TB</p>
+          <p class="text-success fw-bold">R$ 74.999,90</p>
+          <button class="btn btn-primary w-100 mt-auto">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="bg-dark text-light py-4 mt-5">
+  <div class="container">
+     <div class="row">
+
+      <div class="col-md-4 mb-3">
+        <h5>Contato</h5>
+        <a href="suporte.html" style="text-decoration: none;">
+          Fale conosco
+        </a>
+        <p class="text-secondary mb-1">
+          sac.atelier@gmail.com
+        </p>
+        <p class="text-secondary">
+          (17) 3301-7696
+        </p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
